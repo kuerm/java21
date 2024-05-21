@@ -2,13 +2,17 @@ import org.junit.jupiter.api.Test;
 
 import java.util.SequencedSet;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 class Java21FeaturesTest {
 
     @Test
     void sequencedCollection() {
-        SequencedSet<String> strings = new Java21Features().sequencedCollection();
+        Java21Features sut = new Java21Features();
 
-        assert strings.size() == 2;
+        SequencedSet<String> actual = sut.sequencedCollection();
+
+        assertThat(actual).hasSize(2);
     }
 
 }
