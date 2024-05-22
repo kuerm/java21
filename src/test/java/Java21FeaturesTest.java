@@ -1,18 +1,19 @@
 import org.junit.jupiter.api.Test;
 
-import java.util.Set;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 class Java21FeaturesTest {
 
     @Test
-    void sequencedCollection() {
+    void recordPatterns() {
         Java21Features sut = new Java21Features();
 
-        Set<String> actual = sut.sequencedCollection();
+        String actual = sut.recordPatterns();
 
-        assertThat(actual).hasSize(2);
+        assertThat(actual).isEqualTo("""
+                Fish details! Name: FishName[value=Salmon], Size: 30.5, Age: 3, Is Yummy? YUMMY
+                Bird details! Name: Eagle, Is Flying: true
+                """);
     }
 
 }
