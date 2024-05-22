@@ -5,10 +5,9 @@ public class Java21Features {
 
     public SequencedSet<String> sequencedCollection() {
         SequencedSet<String> strings = new LinkedHashSet<>();
-
         strings.add("first");
-
         strings.add("second");
+        strings.add("last");
 
         return strings;
     }

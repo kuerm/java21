@@ -1,0 +1,10 @@
+- Checkout [GitHub](https://github.com/kuerm/java21) Branch: *feature/sequencedCollections* (*solutions/sequencedCollections* contains a possible solution. Try yourself first!)
+- Get topic introduction from internet
+  - What's the problem with the current implementations? Why did they invent Sequenced Collections?
+- Create example code for this topic
+  - *SequencedMap* provides more new features than the others Sequenced*
+- Work in pairs, groups or alone
+- Create an image on a Post-it for this topic for your own - be creative
+- Goal is to understand and to explain later to a co-worker
+- If there's time left
+  - How performant is *reversed()*-Function? What about writing it yourself?
