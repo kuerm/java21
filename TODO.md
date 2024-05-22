@@ -1,0 +1,11 @@
+- Checkout [GitHub](https://github.com/kuerm/java21) Branch: *feature/recordPatterns* (*solutions/recordPatterns* contains a possible solution. Try yourself first!)
+- Get topic introduction from internet
+    - What improvements did this feature get the last versions?
+    - How could you use it in your daily life?
+- Create example code for this topic
+    - Did you ever use OpenAI or any other AI tool?
+        - Yes: try without it!
+        - No: try with it!
+- Work in pairs, groups or alone
+- Create an image on a Post-it for this topic for your own - be creative
+- Goal is to understand and to explain later to a co-worker
