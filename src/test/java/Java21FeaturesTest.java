@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-import java.util.SequencedSet;
+import java.util.Set;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -10,7 +10,7 @@ class Java21FeaturesTest {
     void sequencedCollection() {
         Java21Features sut = new Java21Features();
 
-        SequencedSet<String> actual = sut.sequencedCollection();
+        Set<String> actual = sut.sequencedCollection();
 
         assertThat(actual).hasSize(2);
     }
