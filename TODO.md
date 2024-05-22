@@ -1,0 +1,7 @@
+- Checkout [GitHub](https://github.com/kuerm/java21) Branch: *feature/virtualThreads*
+- Read README.md
+- Play with Java21VirtualThreads.java
+- Read JakartaEE11VirtualThreads.java and wait for Jakarta EE 11 to be released
+- Create an image on a Post-it for this topic for your own - be creative
+- Goal is to understand and to explain later to a co-worker
+- If there's time, discuss in groups about pros and cons of Threads
