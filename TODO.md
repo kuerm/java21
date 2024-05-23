@@ -1,0 +1,14 @@
+- Checkout [GitHub](https://github.com/kuerm/java21) Branch: *feature/switchPatternMatching* (*solutions/switchPatternMatching* contains a possible solution. Try yourself first!)
+- Get topic introduction from internet
+    - Whats the biggest benefit in your opinion? Write it down!
+    - What about the special case with switch pattern matching in combination of checking the value before entering the "statement"?
+    - Complex data type in combination with switch and record pattern features will be checked out in another training [[Java 21 Advanced]]
+- Create example code for this topic
+    - Try with own types
+    - Also with null-Object
+    - Explain your neighbour the special case with switch-fall-through and Default or Null Values
+- Work in pairs, groups or alone
+- Create an image on a Post-it for this topic for your own - be creative
+- Goal is to understand and to explain later to a co-worker
+- If there's time left
+    - Checkout the solution branch and have a look
