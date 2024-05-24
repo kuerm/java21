@@ -4,7 +4,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class Java21FeaturesTest {
 
@@ -50,7 +50,7 @@ class Java21FeaturesTest {
 
         String actual = sut.plainSwitch(animal);
 
-        assertEquals(expected, actual);
+        assertThat(actual).isEqualTo(expected);
     }
 
     @ParameterizedTest
@@ -60,7 +60,7 @@ class Java21FeaturesTest {
 
         String actual = sut.plainSwitchWithDefault(object);
 
-        assertEquals(expected, actual);
+        assertThat(actual).isEqualTo(expected);
     }
 
     @ParameterizedTest
@@ -70,7 +70,7 @@ class Java21FeaturesTest {
 
         String actual = sut.plainSwitchWithNull(object);
 
-        assertEquals(expected, actual);
+        assertThat(actual).isEqualTo(expected);
     }
 
     @ParameterizedTest
@@ -80,6 +80,6 @@ class Java21FeaturesTest {
 
         String actual = sut.plainSwitchWithCondition(animal);
 
-        assertEquals(expected, actual);
+        assertThat(actual).isEqualTo(expected);
     }
 }
