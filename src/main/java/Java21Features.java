@@ -69,7 +69,7 @@ public class Java21Features {
 
     // try to remove the permits clause and see what happens
     sealed abstract static class Animal permits Cat, Dog, Mouse {
-        private String name;
+        private final String name;
 
         protected Animal(String name) {
             this.name = name;
